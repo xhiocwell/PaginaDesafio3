@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font: normal 22px Simonson;
+    color: rgb(13, 120, 110);
+    background-color: rgb(28, 21, 21);
+}
+header{
+    font-size: 60px;
+    padding-bottom: 50px;
+    color: blueviolet;
+    text-align: center;
+    font-family: sans-serif;
+}
+h1,h2,h3,h4{
+    padding-top: 35px;
+    padding-left: 95px;
+    font-size: 45px;
+    color: blueviolet;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color:blueviolet;
+    font-family: sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 85px;
+    padding-right: 15px;
+    display: flex;
+}
+nav {
+    list-style: none;
+}
+
+ nav li {
+    margin: 0 15px;
+}
+nav li a {
+    text-decoration: none;
+    color: #e7d8d8;
+    
+}
+
+nav li a:hover {
+    opacity: 0.5;
+}
+.pelis{
+    padding-top: 25px;
+    padding-bottom: 35px; 
+    font-size: 25px;
+    font-family: sans-serif;
+    color: blueviolet;
+}
+.history{
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+}
+.impel{
+    padding-bottom: 20px;
+}
+.compra{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.pe{
+    padding-top: 25px;
+    padding-bottom: 35px; 
+    font-size: 25px;
+    font-family: sans-serif;
+    color: blueviolet;
+}
+.caja1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+}
+@media screen and (max-width:600px)
+{
+  html {
+        font: normal 16px Simonson;
+        color:black;
+        background-color: white;
+    }
+    nav li a {
+
+        width: 15%;
+        box-sizing: border-box;
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        background-color:blueviolet;
+        font-family: sans-serif;
+        
+    }
+    header{
+        font-size: 55px;
+        padding: 20px;
+        font-family: sans-serif;
+    }
+    h1,h2,h3,h4{
+        padding: 20px;
+        font-size: 35px;
+        font-family: sans-serif;
+    }
+    .history{
+        padding-top: 20px;
+        padding-left: 100px;
+        padding-right: 100px;
+        color: black;
+        font-size: 20px;
+    }
+    .compra{
+        font-size: 15px;
+        font-family: sans-serif;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: black;
+    
+    }
+}
